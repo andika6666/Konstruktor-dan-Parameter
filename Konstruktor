@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package konstruktorparameter;
+
+/**
+ *
+ * @author MOKLET-1
+ */
+public class Konstruktor {
+    String hasil ;
+    int angka ;
+    
+    //Konstruktor
+    public Konstruktor(){
+        //Variable Didalam Konstruktor
+        hasil = "Hasil perhitungan persegi";
+        angka = 100;
+    }
+    
+    public static void main(String[] args){
+        //Membuat Objek dari Class
+        Konstruktor data = new Konstruktor();
+        System.out.println(data.hasil);
+        System.out.println(data.angka);
+    }
+}
+
